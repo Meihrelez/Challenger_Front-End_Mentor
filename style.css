@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Outfit:wght@400;700&family=PT+Serif:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+main{
+    background: hsl(212, 45%, 89%);
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.container{
+    background: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: flex;
+    flex-direction: column;
+    width: 273px;                              ;
+    height: 445px;
+    border-radius: 15px;
+   
+}
+.QRspace{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+
+}
+
+.QRspace > img{
+
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+h3{
+    color: hsl(218, 44%, 22%);
+    font-family: 'outfit';
+    font-weight: 700;
+    font-size: 21px;
+    margin: 15px;
+    text-align: center;
+}
+
+h5{
+    font-family: 'outfit';
+    text-align: center;
+    font-weight: 500;
+
+    color:  hsl(180, 1%, 62%)
+    
+}
